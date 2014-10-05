@@ -8,17 +8,16 @@
 npm install -g tweet-stats
 ```
 
-## Usage
-
-The following environment variables need to be exported:
+You'll need to export your Twitter OAuth credentials:
 
 ```
 export TWITTER_CONSUMER_KEY=...
-export TWITTER_CONSUMER_SCERET=...
+export TWITTER_CONSUMER_SECRET=...
 export TWITTER_ACCESS_TOKEN=...
 export TWITTER_ACCESS_TOKEN_SECRET=...
-export TWITTER_CONSUMER_SECRET=...
 ```
+
+## Usage
 
 ```
 Usage: tweet-stats [options] <search_query> <metric_name>
