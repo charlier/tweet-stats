@@ -1,0 +1,31 @@
+{
+  "name": "tweet-stats",
+  "version": "1.0.0",
+  "description": "Sends tweet stats to StatsD",
+  "main": "index.js",
+  "bin": {
+    "tweet-stats": "./tweet-stats.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinjmurphy/tweet-stats.git"
+  },
+  "keywords": [
+    "tweet",
+    "stats",
+    "twitter",
+    "statsd"
+  ],
+  "author": "robin@robinmurphy.co.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinjmurphy/tweet-stats/issues"
+  },
+  "homepage": "https://github.com/robinjmurphy/tweet-stats",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.3.0",
+    "node-statsd": "0.0.7",
+    "twit": "^1.1.18"
+  }
+}
