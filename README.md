@@ -28,6 +28,7 @@ Options:
   -V, --version      output the version number
   -P, --port [port]  StatsD port [8125]
   -H, --host [host]  StatsD host [localhost]
+  -v, --verbose      enable verbose logging
 ```
 
 For example, to increment the StatsD counter `twitter.apple` whenever a public tweet mentions the word 'apple':
